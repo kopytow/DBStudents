@@ -1,4 +1,8 @@
 package org.db.students;
 
-public class InsufficientParameterException extends Exception {
+public class WrongTypeAndNumberOfParametersException extends Exception {
+
+    public WrongTypeAndNumberOfParametersException(String message) {
+        super(message);
+    }
 }
